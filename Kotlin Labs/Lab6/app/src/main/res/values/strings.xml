@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab6 3D Terrain</string>
+    <string name="map_title">Вибір ділянки на карті</string>
+    <string name="map_hint">Виділіть невелику область (до 5×5 тайлів). Потрібен інтернет для карти.</string>
+    <string name="selection_bounds" formatted="false">Обрано: %.5f…%.5f N, %.5f…%.5f E</string>
+    <string name="build_terrain">Побудувати 3D-рельєф</string>
+    <string name="terrain_title">3D-поверхня (OpenGL ES)</string>
+    <string name="terrain_hint">Обертайте пальцем або повзунками</string>
+    <string name="rotation_x">Нахил (X)</string>
+    <string name="rotation_y">Обертання (Y)</string>
+    <string name="back_to_map">Назад до карти</string>
+</resources>
