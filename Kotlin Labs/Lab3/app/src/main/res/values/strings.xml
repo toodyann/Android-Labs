@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Lab3 Google Auth</string>
+
+    <string name="auth_title">Аутентифікація</string>
+    <string name="sign_in_google">Увійти через Google</string>
+    <string name="sign_out">Вийти</string>
+    <string name="signed_in_as" formatted="false">Вхід виконано як: %1$s</string>
+
+    <string name="map_title">Поточне місце</string>
+    <string name="coordinates_format" formatted="false">Координати: %1$.5f, %2$.5f</string>
+    <string name="accuracy_format" formatted="false">Похибка: ±%1$.0f м</string>
+    <string name="location_unknown">Локація ще не отримана</string>
+    <string name="start_tracking">Старт (Foreground Service)</string>
+    <string name="stop_tracking">Стоп</string>
+
+    <string name="sms_mode_label">Надсилання SMS</string>
+    <string name="sms_mode_programmatic">Програмно (SmsManager)</string>
+    <string name="sms_mode_default_app">Через додаток Messages</string>
+    <string name="pick_contact">Обрати в системі</string>
+    <string name="browse_contacts">Список контактів</string>
+    <string name="send_sms">Надіслати SMS</string>
+    <string name="sms_message_template">Координати: %1$.5f, %2$.5f (±%3$.0f м)</string>
+    <string name="contacts_dialog_title">Контакти пристрою</string>
+    <string name="contacts_search_hint">Пошук за ім’ям або номером</string>
+    <string name="contacts_empty">Контакти не знайдено</string>
+    <string name="contacts_permission_required">Для перегляду списку потрібен дозвіл READ_CONTACTS</string>
+    <string name="grant_permission">Надати дозвіл</string>
+    <string name="contact_info_title">Контакт</string>
+    <string name="contact_delete_title">Видалити контакт?</string>
+    <string name="contact_delete_message">%1$s %2$s буде прибрано зі списку одержувачів.</string>
+    <string name="delete">Видалити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="ok">OK</string>
+    <string name="given_name_label">Ім’я</string>
+    <string name="family_name_label">Прізвище</string>
+    <string name="phone_label">Телефон</string>
+    <string name="contact_id_label">ID контакту</string>
+    <string name="permission_sms_title">Дозвіл на надсилання SMS</string>
+    <string name="permission_sms_rationale">Для програмного надсилання повідомлень додатку потрібен дозвіл SEND_SMS. Без нього SMS можна надіслати лише через стандартний додаток повідомлень.</string>
+    <string name="permission_sms_denied">Ви відхилили дозвіл SEND_SMS. Увімкніть його в налаштуваннях або перемкніть режим на «Через Messages».</string>
+    <string name="permission_contacts_title">Дозвіл на читання контактів</string>
+    <string name="permission_contacts_rationale">Щоб показати ім’я та прізвище окремо з бази контактів, потрібен дозвіл READ_CONTACTS. Без нього можна лише обрати контакт через системний вибір (ім’я з DISPLAY_NAME).</string>
+    <string name="permission_contacts_denied">Дозвіл READ_CONTACTS не надано. Скористайтеся «Обрати в системі» або увімкніть дозвіл у налаштуваннях.</string>
+    <string name="permission_location_title">Дозвіл на геолокацію</string>
+    <string name="permission_location_denied">Дозвіл на геолокацію не надано. Увімкніть його в налаштуваннях.</string>
+    <string name="sms_sent">Повідомлення надіслано</string>
+    <string name="sms_partial_failure">Не вдалося надіслати частині одержувачів</string>
+    <string name="open_settings">Налаштування</string>
+
+    <string name="location_notification_channel">Location</string>
+    <string name="location_notification_title">Отримання координат</string>
+    <string name="location_notification_text">Додаток визначає ваше місце</string>
+</resources>
